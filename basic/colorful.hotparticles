@@ -46,7 +46,7 @@ insertMode 3 top!
 kickStartEmitEnabled true
 kickStartEmit 0
 kickStartStepsEnabled true
-kickStartSteps 0
+kickStartSteps 100
 linearDampingEnabled true
 linearDamping 0.23776943158548 0.23776943158548
 offset 0.5 0.5
@@ -96,7 +96,7 @@ emitterContinuous true
 emitterLifetime 0
 insertMode 3 top!
 kickStartEmitEnabled true
-kickStartEmit 0
+kickStartEmit 120
 kickStartStepsEnabled true
 kickStartSteps 0
 linearDampingEnabled true
