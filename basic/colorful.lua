@@ -1,18 +1,23 @@
 --[[
 module = {
-	{
+	x=emitterPositionX, y=emitterPositionY,
+	[1] = {
 		system=particleSystem1,
 		kickStartSteps=steps1, kickStartDt=dt1, emitAtStart=count1,
 		blendMode=blendMode1, shader=shader1,
 		texturePreset=preset1, texturePath=path1,
-		shaderPath=path1, shaderFilename=filename1
+		shaderPath=path1, shaderFilename=filename1,
+		x=emitterOffsetX, y=emitterOffsetY
 	},
-	{ system=particleSystem2, ... },
+	[2] = {
+		system=particleSystem2,
+		...
+	},
 	...
 }
 ]]
 local LG        = love.graphics
-local particles = {}
+local particles = {x=0, y=0}
 
 local image1 = LG.newImage("rainbow.png")
 image1:setFilter("linear", "linear")
@@ -40,7 +45,7 @@ ps:setSpin(0, 0)
 ps:setSpinVariation(0)
 ps:setSpread(1.0087683200836)
 ps:setTangentialAcceleration(0, 0)
-table.insert(particles, {system=ps, kickStartSteps=100, kickStartDt=0.022000000476837, emitAtStart=0, blendMode="add", shader=nil, texturePath="rainbow.png", texturePreset="light", shaderPath="", shaderFilename=""})
+table.insert(particles, {system=ps, kickStartSteps=100, kickStartDt=0.022000000476837, emitAtStart=0, blendMode="add", shader=nil, texturePath="rainbow.png", texturePreset="", shaderPath="", shaderFilename="", x=0, y=0})
 
 local ps = LG.newParticleSystem(image2, 149)
 ps:setColors(0.1704545468092, 0.88688015937805, 1, 0, 0.1704545468092, 0.6983470916748, 1, 1, 0.1704545468092, 0.32128098607063, 1, 0)
@@ -63,6 +68,6 @@ ps:setSpin(0, 0)
 ps:setSpinVariation(0)
 ps:setSpread(0)
 ps:setTangentialAcceleration(0, 0)
-table.insert(particles, {system=ps, kickStartSteps=0, kickStartDt=0, emitAtStart=120, blendMode="add", shader=nil, texturePath="lightDot.png", texturePreset="lightDot", shaderPath="", shaderFilename=""})
+table.insert(particles, {system=ps, kickStartSteps=0, kickStartDt=0, emitAtStart=120, blendMode="add", shader=nil, texturePath="lightDot.png", texturePreset="lightDot", shaderPath="", shaderFilename="", x=0, y=0})
 
 return particles

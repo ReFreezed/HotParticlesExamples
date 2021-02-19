@@ -1,7 +1,7 @@
 7
 
 :project
-bgColor 0 0 0.15
+bgColor 0 0.65299684542587 0.2807570977918
 bgChecker 0
 bgSize 8
 bgPath 0 !
@@ -15,7 +15,7 @@ exportParticlesOverwrite false
 exportParticlesTemplate 16 defaultLuaModule!
 exportParticlesTemplatePath 0 !
 exportParticlesPath 0 !
-exportTextures true
+exportTextures false
 exportTexturesOverwrite false
 exportTexturesDirectory 0 !
 exportClipboardTemplate 19 defaultLuaClipboard!
@@ -35,11 +35,11 @@ region true 0 0
 
 :system
 blendMode 3 add!
-colors 0 0 1 0 0 0 1 1 0 0 1 0.40151515151515 0 0 1 0
+colors 0.77272727272727 0.85984848484848 1 0 0.77272727272727 0.85984848484848 1 0.087121212121212 0.77272727272727 0.85984848484848 1 0.20075757575758 0.77272727272727 0.85984848484848 1 0
 customData 0 !
 directionEnabled true
-direction -1.5707963267949
-emissionRate 16.715365728205
+direction 0
+emissionRate 4.4720062887588
 emitterContinuous true
 emitterLifetime 0
 emitterOffsetEnabled true
@@ -48,65 +48,11 @@ insertMode 3 top!
 kickStartEmitEnabled true
 kickStartEmit 0
 kickStartStepsEnabled true
-kickStartSteps 100
-linearDampingEnabled true
-linearDamping 0.23776943158548 0.23776943158548
-offset 0.5 0.5
-particleLifetime 1.8 2.2
-radialAccelerationEnabled true
-radialAcceleration 0 0
-relativeRotation true
-rotationEnabled true
-rotation 1.5707963267949 1.5707963267949
-scaleSizeEnabled true
-scaleSize 1
-scaleSpaceEnabled true
-scaleSpace 1
-scaleTimeEnabled true
-scaleTime 1
-shaderPath 0 !
-sizes 1.3073789044817
-sizeVariationEnabled true
-sizeVariation 0
-speedEnabled true
-speed 140.23544026164 140.23544026164
-spinEnabled true true
-spin 0 0
-spinVariationEnabled true
-spinVariation 0
-spreadEnabled true
-spread 1.0087682832628
-tangentialAccelerationEnabled true
-tangentialAcceleration 0 0
-texture 5 light!
-texturePath 11 rainbow.png!
-title 0 !
-emissionAreaAngleEnabled true
-emissionAreaDeltaEnabled true true
-emissionArea 4 none! 100 100 0 false
-linearAccelerationEnabled true true
-linearAcceleration 0 0 0 0
-
-:system
-blendMode 3 add!
-colors 0.52272727272727 0.82954545454545 1 0 0.56060606060606 0.82954545454545 1 1 0.63636363636364 0.82954545454545 1 0
-customData 0 !
-directionEnabled true
-direction 0
-emissionRate 13.435894449782
-emitterContinuous true
-emitterLifetime 0
-emitterOffsetEnabled true
-emitterOffset 0 0
-insertMode 3 top!
-kickStartEmitEnabled true
-kickStartEmit 120
-kickStartStepsEnabled true
-kickStartSteps 0
+kickStartSteps 20
 linearDampingEnabled true
 linearDamping 0 0
 offset 0.5 0.5
-particleLifetime 1.5527799613746 2.0179928378024
+particleLifetime 1 1
 radialAccelerationEnabled true
 radialAcceleration 0 0
 relativeRotation false
@@ -117,9 +63,9 @@ scaleSize 1
 scaleSpaceEnabled true
 scaleSpace 1
 scaleTimeEnabled true
-scaleTime 1
+scaleTime 0.23617783212508
 shaderPath 0 !
-sizes 0.10301292691515
+sizes 1.8881343996781 0.17745586238117
 sizeVariationEnabled true
 sizeVariation 0
 speedEnabled true
@@ -132,11 +78,65 @@ spreadEnabled true
 spread 0
 tangentialAccelerationEnabled true
 tangentialAcceleration 0 0
-texture 8 lightDot!
+texture 4 ring!
 texturePath 0 !
 title 0 !
 emissionAreaAngleEnabled true
 emissionAreaDeltaEnabled true true
-emissionArea 6 normal! 115.82868441494 115.82868441494 0 false
+emissionArea 4 none! 100 100 0 false
+linearAccelerationEnabled true true
+linearAcceleration 0 0 0 0
+
+:system
+blendMode 3 add!
+colors 0.72727272727273 0.85984848484848 1 0 0.72727272727273 0.85984848484848 1 1 0.72727272727273 0.85984848484848 1 0
+customData 0 !
+directionEnabled true
+direction -1.5707963705063
+emissionRate 12.461059570313
+emitterContinuous true
+emitterLifetime 0
+emitterOffsetEnabled true
+emitterOffset 0 0
+insertMode 3 top!
+kickStartEmitEnabled true
+kickStartEmit 0
+kickStartStepsEnabled true
+kickStartSteps 0
+linearDampingEnabled true
+linearDamping 0 0
+offset 0.98625153186275 0.5
+particleLifetime 0.99688476324081 0.99688476324081
+radialAccelerationEnabled true
+radialAcceleration 0 0
+relativeRotation false
+rotationEnabled true
+rotation 0 6.2831853071796
+scaleSizeEnabled true
+scaleSize 1
+scaleSpaceEnabled true
+scaleSpace 1
+scaleTimeEnabled true
+scaleTime 1
+shaderPath 0 !
+sizes 0 1 1 0
+sizeVariationEnabled true
+sizeVariation 0
+speedEnabled true
+speed 0 0
+spinEnabled true true
+spin 0.027891354952182 0.027891354952182
+spinVariationEnabled true
+spinVariation 0
+spreadEnabled true
+spread 0
+tangentialAccelerationEnabled true
+tangentialAcceleration 0 0
+texture 5 arrow!
+texturePath 0 !
+title 0 !
+emissionAreaAngleEnabled true
+emissionAreaDeltaEnabled true true
+emissionArea 4 none! 0 0 0 false
 linearAccelerationEnabled true true
 linearAcceleration 0 0 0 0

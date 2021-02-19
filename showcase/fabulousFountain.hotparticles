@@ -1,0 +1,89 @@
+7
+
+:project
+bgColor 0.91482649842271 0.57097791798107 0.24290220820189
+bgChecker 0
+bgSize 8
+bgPath 0 !
+bgScale 1
+bgRepeat false false
+pixelateWorld false
+pixelateTextures false
+exportBaseDirectory 0 !
+exportParticles true
+exportParticlesOverwrite false
+exportParticlesTemplate 16 defaultLuaModule!
+exportParticlesTemplatePath 0 !
+exportParticlesPath 0 !
+exportTextures false
+exportTexturesOverwrite false
+exportTexturesDirectory 0 !
+exportClipboardTemplate 19 defaultLuaClipboard!
+exportClipboardTemplatePath 0 !
+scaleGlobalTimeEnabled true
+scaleGlobalTime 1
+scaleGlobalSpaceEnabled true
+scaleGlobalSpace 1
+scaleGlobalSizeEnabled true
+scaleGlobalSize 1
+zoom 0
+customData 0 !
+emitterPosition -23.931955337524 0
+movementScaleEnabled true true
+movement 1 0.098039215686275 0 -1.2342857142857
+region true 0 0
+guiLimit 13 emitterOffset! 1.773347748755
+
+:system
+blendMode 3 add!
+colors 0.76136363636364 1 1 0 0.89772727272727 1 1 1 0.96590909090909 1 1 0.5 1 1 1 0
+customData 0 !
+directionEnabled true
+direction -1.5707963705063
+emissionRate 420
+emitterContinuous true
+emitterLifetime 0
+emitterOffsetEnabled true
+emitterOffset 0 0
+insertMode 3 top!
+kickStartEmitEnabled true
+kickStartEmit 0
+kickStartStepsEnabled true
+kickStartSteps 0
+linearDampingEnabled true
+linearDamping 0 0
+offset 0.5 0.5
+particleLifetime 1.8 2.2
+radialAccelerationEnabled true
+radialAcceleration 0 0
+relativeRotation false
+rotationEnabled true
+rotation 0 0
+scaleSizeEnabled true
+scaleSize 1
+scaleSpaceEnabled true
+scaleSpace 1
+scaleTimeEnabled true
+scaleTime 1
+shaderPath 0 !
+sizes 0.34
+sizeVariationEnabled true
+sizeVariation 0
+speedEnabled true
+speed 255.45170593262 429.90655517578
+spinEnabled true true
+spin 0 0
+spinVariationEnabled true
+spinVariation 0
+spreadEnabled true
+spread 0.23038346126325
+tangentialAccelerationEnabled true
+tangentialAcceleration 0 0
+texture 5 light!
+texturePath 0 !
+title 0 !
+emissionAreaAngleEnabled true
+emissionAreaDeltaEnabled true true
+emissionArea 4 none! 0 0 0 false
+linearAccelerationEnabled true true
+linearAcceleration 0 467.28973388672 0 467.28973388672

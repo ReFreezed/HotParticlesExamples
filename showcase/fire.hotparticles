@@ -1,8 +1,8 @@
 7
 
 :project
-bgColor 0 0 0.15
-bgChecker 0
+bgColor 0.44210526315789 0.67017543859649 0.16140350877193
+bgChecker -0.1144578313253
 bgSize 8
 bgPath 0 !
 bgScale 1
@@ -15,7 +15,7 @@ exportParticlesOverwrite false
 exportParticlesTemplate 16 defaultLuaModule!
 exportParticlesTemplatePath 0 !
 exportParticlesPath 0 !
-exportTextures true
+exportTextures false
 exportTexturesOverwrite false
 exportTexturesDirectory 0 !
 exportClipboardTemplate 19 defaultLuaClipboard!
@@ -28,18 +28,18 @@ scaleGlobalSizeEnabled true
 scaleGlobalSize 1
 zoom 0
 customData 0 !
-emitterPosition 0 0
+emitterPosition -38 106
 movementScaleEnabled true true
 movement 0 1 1 1
 region true 0 0
 
 :system
 blendMode 3 add!
-colors 0 0 1 0 0 0 1 1 0 0 1 0.40151515151515 0 0 1 0
+colors 0 0 1 0.087719298245614 0.57894736842105 0.57894736842105 1 0.8 0.1578947368421 0.55789473684211 1 0.72280701754386 0.063157894736842 1 1 0
 customData 0 !
 directionEnabled true
-direction -1.5707963267949
-emissionRate 16.715365728205
+direction -1.4020462036133
+emissionRate 410.58526611328
 emitterContinuous true
 emitterLifetime 0
 emitterOffsetEnabled true
@@ -48,65 +48,11 @@ insertMode 3 top!
 kickStartEmitEnabled true
 kickStartEmit 0
 kickStartStepsEnabled true
-kickStartSteps 100
-linearDampingEnabled true
-linearDamping 0.23776943158548 0.23776943158548
-offset 0.5 0.5
-particleLifetime 1.8 2.2
-radialAccelerationEnabled true
-radialAcceleration 0 0
-relativeRotation true
-rotationEnabled true
-rotation 1.5707963267949 1.5707963267949
-scaleSizeEnabled true
-scaleSize 1
-scaleSpaceEnabled true
-scaleSpace 1
-scaleTimeEnabled true
-scaleTime 1
-shaderPath 0 !
-sizes 1.3073789044817
-sizeVariationEnabled true
-sizeVariation 0
-speedEnabled true
-speed 140.23544026164 140.23544026164
-spinEnabled true true
-spin 0 0
-spinVariationEnabled true
-spinVariation 0
-spreadEnabled true
-spread 1.0087682832628
-tangentialAccelerationEnabled true
-tangentialAcceleration 0 0
-texture 5 light!
-texturePath 11 rainbow.png!
-title 0 !
-emissionAreaAngleEnabled true
-emissionAreaDeltaEnabled true true
-emissionArea 4 none! 100 100 0 false
-linearAccelerationEnabled true true
-linearAcceleration 0 0 0 0
-
-:system
-blendMode 3 add!
-colors 0.52272727272727 0.82954545454545 1 0 0.56060606060606 0.82954545454545 1 1 0.63636363636364 0.82954545454545 1 0
-customData 0 !
-directionEnabled true
-direction 0
-emissionRate 13.435894449782
-emitterContinuous true
-emitterLifetime 0
-emitterOffsetEnabled true
-emitterOffset 0 0
-insertMode 3 top!
-kickStartEmitEnabled true
-kickStartEmit 120
-kickStartStepsEnabled true
 kickStartSteps 0
 linearDampingEnabled true
 linearDamping 0 0
 offset 0.5 0.5
-particleLifetime 1.5527799613746 2.0179928378024
+particleLifetime 0.28070175647736 0.56140351295471
 radialAccelerationEnabled true
 radialAcceleration 0 0
 relativeRotation false
@@ -119,24 +65,78 @@ scaleSpace 1
 scaleTimeEnabled true
 scaleTime 1
 shaderPath 0 !
-sizes 0.10301292691515
+sizes 0.34042553191489
 sizeVariationEnabled true
 sizeVariation 0
 speedEnabled true
-speed 0 0
+speed 656.14038085938 768.42108154297
 spinEnabled true true
 spin 0 0
 spinVariationEnabled true
 spinVariation 0
 spreadEnabled true
-spread 0
+spread 0.22046263515949
 tangentialAccelerationEnabled true
 tangentialAcceleration 0 0
-texture 8 lightDot!
+texture 5 light!
 texturePath 0 !
 title 0 !
 emissionAreaAngleEnabled true
 emissionAreaDeltaEnabled true true
-emissionArea 6 normal! 115.82868441494 115.82868441494 0 false
+emissionArea 4 none! 0 0 0 false
+linearAccelerationEnabled true true
+linearAcceleration 0 0 0 0
+
+:system
+blendMode 8 subtract!
+colors 0 0 1 0 0 0 1 0.3030303030303 0 0 1 0.37878787878788 0 0 1 0.068181818181818 0 0 1 0
+customData 0 !
+directionEnabled true
+direction -1.4020462036133
+emissionRate 52.726314544678
+emitterContinuous true
+emitterLifetime 0
+emitterOffsetEnabled true
+emitterOffset 0 0
+insertMode 3 top!
+kickStartEmitEnabled true
+kickStartEmit 0
+kickStartStepsEnabled true
+kickStartSteps 0
+linearDampingEnabled true
+linearDamping 0 0
+offset 0.5 0.5
+particleLifetime 1.1214953660965 1.6199376583099
+radialAccelerationEnabled true
+radialAcceleration 0 0
+relativeRotation false
+rotationEnabled true
+rotation 0 0
+scaleSizeEnabled true
+scaleSize 1
+scaleSpaceEnabled true
+scaleSpace 1
+scaleTimeEnabled true
+scaleTime 1
+shaderPath 0 !
+sizes 0.34042553191489
+sizeVariationEnabled true
+sizeVariation 0
+speedEnabled true
+speed 641.74456787109 791.27728271484
+spinEnabled true true
+spin 0 0
+spinVariationEnabled true
+spinVariation 0
+spreadEnabled true
+spread 0.24250890314579
+tangentialAccelerationEnabled true
+tangentialAcceleration 0 0
+texture 5 light!
+texturePath 0 !
+title 0 !
+emissionAreaAngleEnabled true
+emissionAreaDeltaEnabled true true
+emissionArea 4 none! 0 0 0 false
 linearAccelerationEnabled true true
 linearAcceleration 0 0 0 0

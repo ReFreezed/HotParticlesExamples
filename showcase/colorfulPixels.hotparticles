@@ -1,0 +1,95 @@
+7
+
+:project
+bgColor 0.66666666666667 1 0.24605678233438
+bgChecker 0
+bgSize 8
+bgPath 0 !
+bgScale 1
+bgRepeat false false
+pixelateWorld true
+pixelateTextures false
+exportBaseDirectory 0 !
+exportParticles true
+exportParticlesOverwrite false
+exportParticlesTemplate 16 defaultLuaModule!
+exportParticlesTemplatePath 0 !
+exportParticlesPath 0 !
+exportTextures false
+exportTexturesOverwrite false
+exportTexturesDirectory 0 !
+exportClipboardTemplate 19 defaultLuaClipboard!
+exportClipboardTemplatePath 0 !
+scaleGlobalTimeEnabled true
+scaleGlobalTime 1
+scaleGlobalSpaceEnabled true
+scaleGlobalSpace 0.10582087385687
+scaleGlobalSizeEnabled true
+scaleGlobalSize 0.17277543910582
+zoom 6
+customData 0 !
+emitterPosition -1.4375 -24.5625
+movementScaleEnabled true true
+movement 0 0.086805555555556 0.086805555555556 0.96005917159763
+region true 0 0
+
+:system
+blendMode 5 alpha!
+colors 0 1 1 0 0 1 1 1 0.17424242424242 1 1 1 0.29166666666667 1 1 1 0.46212121212121 1 1 1 0.53787878787879 1 1 1 0.65151515151515 1 1 1 0.65151515151515 1 1 0
+customData 0 !
+directionEnabled true
+direction 1.5707963267949
+emissionRate 275
+emitterContinuous true
+emitterLifetime 0
+emitterOffsetEnabled true
+emitterOffset 0 0
+insertMode 3 top!
+kickStartEmitEnabled true
+kickStartEmit 0
+kickStartStepsEnabled true
+kickStartSteps 50
+linearDampingEnabled true
+linearDamping 0 0
+offset 0.74576271186441 0.5
+particleLifetime 1.2 1.2
+radialAccelerationEnabled true
+radialAcceleration 0 0
+relativeRotation true
+rotationEnabled true
+rotation 0 0
+scaleSizeEnabled true
+scaleSize 1
+scaleSpaceEnabled true
+scaleSpace 1
+scaleTimeEnabled true
+scaleTime 1
+shaderPath 0 !
+sizes 0.48 0.3
+sizeVariationEnabled true
+sizeVariation 0
+speedEnabled true
+speed 313.05984996264 313.05984996264
+spinEnabled true true
+spin 0 0
+spinVariationEnabled true
+spinVariation 0
+spreadEnabled true
+spread 5.7595865315813
+tangentialAccelerationEnabled true
+tangentialAcceleration 0 0
+texture 7 ellipse!
+texturePath 0 !
+title 0 !
+emissionAreaAngleEnabled true
+emissionAreaDeltaEnabled true true
+emissionArea 4 none! 100 100 0 false
+linearAccelerationEnabled true true
+linearAcceleration 0 400 0 850
+gui 23 animation_sequence_rows! 1 2!
+gui 31 animation_sequence_areaPosition! 3 0 0!
+gui 31 animation_sequence_framePadding! 1 0!
+gui 26 animation_sequence_columns! 1 2!
+gui 31 animation_sequence_frameSpacing! 1 0!
+gui 27 animation_sequence_areaSize! 3 0 0!
+gui 28 animation_sequence_frameSize! 5 10 10!
